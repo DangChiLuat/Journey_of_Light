@@ -1,0 +1,453 @@
+fileFormatVersion: 2
+guid: a0d27affa2da9b7458d43f2ee304792f
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: spr_KingTeleport_strip_no_bkg_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 119.46667
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76c9ba1ee4bcc7346abd61d445bd1fad
+      internalID: 668319167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_KingTeleport_strip_no_bkg_1
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 0
+        width: 119.46667
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 839443878fb4ed3469702ef2ac145ac3
+      internalID: -815099788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_KingTeleport_strip_no_bkg_2
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 0
+        width: 119.46667
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22c5e5359ee863142b27c20f25b93dfb
+      internalID: -1161592685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_KingTeleport_strip_no_bkg_6
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 0
+        width: 119.46667
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1e2fd3f17dec72438abbce1baec7e74
+      internalID: -661190386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_KingTeleport_strip_no_bkg_7
+      rect:
+        serializedVersion: 2
+        x: 833
+        y: 0
+        width: 119.46667
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e6bac019e89e4a43a0aaeb0abd0fdb9
+      internalID: -1610668533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_KingTeleport_strip_no_bkg_8
+      rect:
+        serializedVersion: 2
+        x: 952
+        y: 0
+        width: 119.46667
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04db631589390da4baf6ec931faf7d1d
+      internalID: -1178698682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_KingTeleport_strip_no_bkg_9
+      rect:
+        serializedVersion: 2
+        x: 1071
+        y: 0
+        width: 119.46667
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9b29d874c67d644c8f658a8c0829e7d
+      internalID: 215653661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_KingTeleport_strip_no_bkg_10
+      rect:
+        serializedVersion: 2
+        x: 1190
+        y: 0
+        width: 119.46667
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bce4b2e72385e54186d1c6fdd69d10a
+      internalID: 1344815667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_KingTeleport_strip_no_bkg_11
+      rect:
+        serializedVersion: 2
+        x: 1309
+        y: 0
+        width: 119.46667
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e38643577245184dbfaac4d122e3b00
+      internalID: 1450600727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_KingTeleport_strip_no_bkg_3
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 0
+        width: 119.46667
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 000b4d914f579bf44b6221a0f7cef185
+      internalID: -1110641201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_KingTeleport_strip_no_bkg_4
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 0
+        width: 119.46667
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbd9936d64d07384e9f1c9aca98c4d5a
+      internalID: 1544239142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_KingTeleport_strip_no_bkg_5
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 0
+        width: 119.46667
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb2d421d6ed53ca40a10f0c715c35cd3
+      internalID: -1537165560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_KingTeleport_strip_no_bkg_12
+      rect:
+        serializedVersion: 2
+        x: 1428
+        y: 0
+        width: 119.46667
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 223c57d77dba66b4cb603a65ca3b03ef
+      internalID: -398073466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_KingTeleport_strip_no_bkg_13
+      rect:
+        serializedVersion: 2
+        x: 1547
+        y: 0
+        width: 119.46667
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 143ec4815bd77d44fa169cecbf55fe46
+      internalID: -1366640568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_KingTeleport_strip_no_bkg_14
+      rect:
+        serializedVersion: 2
+        x: 1666
+        y: 0
+        width: 119.46667
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5fc12d2b3f49ca4bbe7eb8a72caea92
+      internalID: 520327990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      spr_KingTeleport_strip_no_bkg_0: 668319167
+      spr_KingTeleport_strip_no_bkg_1: -815099788
+      spr_KingTeleport_strip_no_bkg_10: 1344815667
+      spr_KingTeleport_strip_no_bkg_11: 1450600727
+      spr_KingTeleport_strip_no_bkg_12: -398073466
+      spr_KingTeleport_strip_no_bkg_13: -1366640568
+      spr_KingTeleport_strip_no_bkg_14: 520327990
+      spr_KingTeleport_strip_no_bkg_2: -1161592685
+      spr_KingTeleport_strip_no_bkg_3: -1110641201
+      spr_KingTeleport_strip_no_bkg_4: 1544239142
+      spr_KingTeleport_strip_no_bkg_5: -1537165560
+      spr_KingTeleport_strip_no_bkg_6: -661190386
+      spr_KingTeleport_strip_no_bkg_7: -1610668533
+      spr_KingTeleport_strip_no_bkg_8: -1178698682
+      spr_KingTeleport_strip_no_bkg_9: 215653661
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

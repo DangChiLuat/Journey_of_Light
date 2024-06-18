@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 590ef18be3394f74b880d82fac385463, type: 3}
+  m_Name: Sword of lighting
+  m_EditorClassIdentifier: 
+  itemType: 1
+  itemName: Sword of lighting
+  itemIcon: {fileID: 367297872, guid: a9ca9a41598dd2e44b125928045c518f, type: 3}
+  itemId: 6a9a477229031a74ba317421f925a083
+  dropChance: 0
+  equipmentType: 0
+  itemCooldown: 0
+  itemEffects:
+  - {fileID: 11400000, guid: 96d164f1d9cffae45ba8731e7346df8c, type: 2}
+  strength: 3
+  agility: 0
+  intelligence: 2
+  vitality: 4
+  damage: 20
+  critChance: 10
+  critPower: 0
+  health: 10
+  armor: 0
+  evasion: 0
+  magicResistance: 0
+  fireDamage: 0
+  iceDamage: 0
+  lightingDamage: 5
+  craftingMaterials:
+  - data: {fileID: 11400000, guid: 69369925ed773dd4f904c6f9ad97e8a1, type: 2}
+    stackSize: 20
+  - data: {fileID: 11400000, guid: 6835c34bd80fc9c468d2f549f4b6220a, type: 2}
+    stackSize: 20
+  - data: {fileID: 11400000, guid: 14caadcff121d434e8b031ae47985e10, type: 2}
+    stackSize: 10
+  - data: {fileID: 11400000, guid: a180bc7902d002b4e930905c4affb542, type: 2}
+    stackSize: 10
