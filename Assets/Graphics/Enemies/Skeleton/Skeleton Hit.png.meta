@@ -295,13 +295,13 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
+      Skeleton Hit_0: 2070470959
+      Skeleton Hit_1: -1123510094
+      Skeleton Hit_2: 354422035
       Skeleton Hit_3: -408210892
+      Skeleton Hit_4: 385194283
       Skeleton Hit_5: 1831818533
       Skeleton Hit_6: 2053833221
-      Skeleton Hit_1: -1123510094
-      Skeleton Hit_4: 385194283
-      Skeleton Hit_0: 2070470959
-      Skeleton Hit_2: 354422035
       Skeleton Hit_7: -1902364564
   spritePackingTag: 
   pSDRemoveMatte: 0

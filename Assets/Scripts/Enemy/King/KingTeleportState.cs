@@ -16,7 +16,7 @@ public class KingTeleportState : EnemyState
         base.Enter();
         player = PlayerManager.instance.player.transform;
         enemy.stats.MakeInvincible(true);
-        enemy.UIHP.SetActive(false);
+        //enemy.UIHP.SetActive(false);
         enemy.lastTimeAttacked = Time.time;
 
         if (player.position.x > enemy.transform.position.x)

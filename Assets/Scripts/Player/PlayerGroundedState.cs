@@ -20,34 +20,47 @@ public class PlayerGroundedState : PlayerState
     {
         base.Update();
 
-        if (Input.GetKeyDown(KeyCode.R) && player.skill.blackhole.blackholeUnlocked)
+        if (Input.GetKeyDown(KeyCode.R) && player.skill.blackhole.blackholeUnlocked && player.stats.currentEnergy >= 50)
         {
+
             if (player.skill.blackhole.cooldownTimer > 0)
             {
                 player.fx.CreatePopUpText("Cooldown!");
                 return;
             }
 
-
+            player.stats.EnergyConsumption(50);
             stateMachine.ChangeState(player.blackHole);
         }
 
         if (Input.GetKeyDown(KeyCode.Mouse1) && HasNoSword() && player.skill.sword.swordUnlocked)
         {
             // Kiểm tra xem có đủ năng lượng hay không
-            if (player.stats.currentEnergy >= 50)
+            if (player.stats.currentEnergy >= 20)
             {
                 stateMachine.ChangeState(player.aimSowrd);
-                player.stats.EnergyConsumption(50);
+                player.stats.EnergyConsumption(20);
             }
             else
             {
+                player.fx.CreatePopUpText("not enought Enegry");
                 return;
             }
         }
 
         if (Input.GetKeyDown(KeyCode.Q) && player.skill.parry.parryUnlocked)
-            stateMachine.ChangeState(player.counterAttack);
+        {
+            if (player.stats.currentEnergy >= 10)
+            {
+                stateMachine.ChangeState(player.counterAttack);
+                player.stats.EnergyConsumption(10);
+            } 
+            else
+            {
+                player.fx.CreatePopUpText("not enought Enegry");
+                return;
+            }
+        }
 
         if (Input.GetKeyDown(KeyCode.Mouse0))
             stateMachine.ChangeState(player.primaryAttack);

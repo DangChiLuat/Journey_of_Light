@@ -232,6 +232,12 @@ MonoBehaviour:
   maxHealth:
     baseValue: 75
     modifiers: 
+  maxEnergy:
+    baseValue: 0
+    modifiers: 
+  maxExperience:
+    baseValue: 0
+    modifiers: 
   armor:
     baseValue: 0
     modifiers: 
@@ -250,12 +256,18 @@ MonoBehaviour:
   lightingDamage:
     baseValue: 0
     modifiers: 
+  energyRegenInterval: 5
+  energyRegenAmount: 10
+  increaseEXP: 0
+  levelUP: 0
   isIgnited: 0
   isChilled: 0
   isShocked: 0
   ailmentsDuration: 4
   shockStrikePrefab: {fileID: 4158689088258206225, guid: 90919e9c918fc84499a3a88be8033ade, type: 3}
   currentHealth: 0
+  currentEnergy: 0
+  currentEXP: 0
   soulsDropAmount:
     baseValue: 0
     modifiers: 
@@ -302,8 +314,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c5d919b49c547184da9b10d7bfd2876f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  possibleItemDrop: 0
-  possibleDrop: []
+  possibleItemDrop: 5
+  possibleDrop:
+  - {fileID: 11400000, guid: 201dcf32c23b82649acb65349e91bd6a, type: 2}
+  - {fileID: 11400000, guid: aa2bc36c8c6e18d4fa19d98a060e572b, type: 2}
+  - {fileID: 11400000, guid: b6d4d5ff6ab3f9f4daf3fa23453bbe81, type: 2}
+  - {fileID: 11400000, guid: 851b2617e69f79c4db6a4c9278516982, type: 2}
+  - {fileID: 11400000, guid: 69369925ed773dd4f904c6f9ad97e8a1, type: 2}
   dropPrefab: {fileID: 8730514117533583190, guid: 7aaa3324c1c4b054ebebaafe3343bf25, type: 3}
 --- !u!114 &7546619776816806399
 MonoBehaviour:
@@ -325,7 +342,7 @@ MonoBehaviour:
   groundCheck: {fileID: 7546619778271502296}
   groundCheckDistance: 0.68
   wallCheck: {fileID: 7546619777209899320}
-  wallCheckDistance: 1
+  wallCheckDistance: 1.69
   whatIsGround:
     serializedVersion: 2
     m_Bits: 8
@@ -339,7 +356,7 @@ MonoBehaviour:
   idleTime: 2
   battleTime: 5
   agroDistance: 3.5
-  attackDistance: 1.41
+  attackDistance: 1.89
   attackCooldown: 0
   minAttackCooldown: 0.8
   maxAttackCooldown: 1
@@ -407,6 +424,7 @@ Canvas:
   m_OverrideSorting: 0
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
+  m_VertexColorAlwaysGammaSpace: 0
   m_AdditionalShaderChannelsFlag: 0
   m_SortingLayerID: -1768169261
   m_SortingOrder: 19
@@ -661,7 +679,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7546619777209899321}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.00000029802322, y: 0.0070001185, z: 0}
+  m_LocalPosition: {x: 0.00000029802322, y: -0.23, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []

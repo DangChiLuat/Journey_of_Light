@@ -8,7 +8,7 @@ public class UI_InGame : MonoBehaviour
     [SerializeField] private PlayerStats playerStats;
     [SerializeField] private Slider sliderHP;
     [SerializeField] private Slider sliderEnergy;
-    [SerializeField] private Slider sliderEXP;
+    //[SerializeField] private Slider sliderEXP;
 
     [SerializeField] private Image dashImage;
     [SerializeField] private Image parryImage;
@@ -31,7 +31,7 @@ public class UI_InGame : MonoBehaviour
         {
             playerStats.onHealthChanged += UpdateHealthUI;
             playerStats.onEnergyChanged += UpdateEnergyUI;
-            playerStats.onEXPChanged += UpdateEXPUI;
+    //        playerStats.onEXPChanged += UpdateEXPUI;
         }
 
         skills = SkillManager.instance;
@@ -93,11 +93,13 @@ public class UI_InGame : MonoBehaviour
         sliderEnergy.value = playerStats.currentEnergy;
     }
 
+    /*
     private void UpdateEXPUI()
     {
         sliderEXP.maxValue = playerStats.GetMaxEXPValue();
         sliderEXP.value = playerStats.currentEXP;
     }
+    */
 
     private void SetCooldownOf(Image _image)
     {

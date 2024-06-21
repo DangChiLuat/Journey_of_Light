@@ -17,7 +17,7 @@ public class KingBattleState : EnemyState
     public override void Enter()
     {
         base.Enter();
-        enemy.UIHP.SetActive(true);
+       // enemy.UIHP.SetActive(true);
         player = PlayerManager.instance.player.transform;
         if (player.GetComponent<PlayerStats>().isDead)
             stateMachine.ChangeState(enemy.moveState);
@@ -88,7 +88,7 @@ public class KingBattleState : EnemyState
 
     public void TriggerAttackOrTeleport()
     {
-        if (Random.value < .20f && Vector2.Distance(player.transform.position, enemy.transform.position) < 3f)
+        if (Random.value < .75f && Vector2.Distance(player.transform.position, enemy.transform.position) < 3f)
         {
             AudioManager.instance.PlaySFX(50, enemy.transform);
             stateMachine.ChangeState(enemy.teleportState);

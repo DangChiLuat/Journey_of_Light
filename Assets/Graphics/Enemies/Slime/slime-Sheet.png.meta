@@ -580,30 +580,30 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      slime-Sheet_18: 516486763
-      slime-Sheet_5: 826485724
-      slime-Sheet_21: -1310316291
-      slime-Sheet_6: 359496615
-      slime-Sheet_14: -995307541
-      slime-Sheet_20: -307514318
-      slime-Sheet_8: -81275932
-      slime-Sheet_10: -1655088485
-      slime-Sheet_1: -78005018
-      slime-Sheet_9: 1755219396
-      slime-Sheet_4: 123725063
-      slime-Sheet_15: -1403833490
-      slime-Sheet_2: -676831742
-      slime-Sheet_17: -476264098
       slime-Sheet_0: -1575814570
-      slime-Sheet_13: 950798296
-      slime-Sheet_23: -1369110871
-      slime-Sheet_22: -1862759946
-      slime-Sheet_7: 981517598
+      slime-Sheet_1: -78005018
+      slime-Sheet_10: -1655088485
       slime-Sheet_11: 598232900
       slime-Sheet_12: 1489506834
-      slime-Sheet_3: 710542497
-      slime-Sheet_19: -2064235219
+      slime-Sheet_13: 950798296
+      slime-Sheet_14: -995307541
+      slime-Sheet_15: -1403833490
       slime-Sheet_16: 134597426
+      slime-Sheet_17: -476264098
+      slime-Sheet_18: 516486763
+      slime-Sheet_19: -2064235219
+      slime-Sheet_2: -676831742
+      slime-Sheet_20: -307514318
+      slime-Sheet_21: -1310316291
+      slime-Sheet_22: -1862759946
+      slime-Sheet_23: -1369110871
+      slime-Sheet_3: 710542497
+      slime-Sheet_4: 123725063
+      slime-Sheet_5: 826485724
+      slime-Sheet_6: 359496615
+      slime-Sheet_7: 981517598
+      slime-Sheet_8: -81275932
+      slime-Sheet_9: 1755219396
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

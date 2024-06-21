@@ -328,8 +328,7 @@ public class Inventory : MonoBehaviour , ISaveManager
             currentFlask.Effect(null);
             lastTimeUsedFlask = Time.time;
         }
-        else
-            Debug.Log("Flask on cooldown;");
+//            Debug.Log("Flask on cooldown;");
     }
 
     public bool CanUseArmor()
@@ -343,7 +342,7 @@ public class Inventory : MonoBehaviour , ISaveManager
             return true;
         }
 
-        Debug.Log("Armor on cooldown");
+ //       Debug.Log("Armor on cooldown");
         return false;
     }
 

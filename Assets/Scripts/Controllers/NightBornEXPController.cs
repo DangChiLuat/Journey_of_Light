@@ -30,7 +30,7 @@ public class NightBornEXPController : MonoBehaviour
             }
             hit.GetComponent<Player>()?.fx.ScreenShake(new Vector3(2, 2));
         }
-        Debug.Log(colliders);
+      //  Debug.Log(colliders);
     }
     private void selfDestroy()=> Destroy(gameObject);
 }

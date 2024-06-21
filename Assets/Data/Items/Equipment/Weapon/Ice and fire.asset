@@ -37,10 +37,10 @@ MonoBehaviour:
   lightingDamage: 0
   craftingMaterials:
   - data: {fileID: 11400000, guid: 69369925ed773dd4f904c6f9ad97e8a1, type: 2}
-    stackSize: 20
+    stackSize: 10
   - data: {fileID: 11400000, guid: 1f40c5fd110a27948b085e89f67ab4b3, type: 2}
-    stackSize: 20
+    stackSize: 5
   - data: {fileID: 11400000, guid: b60efd5cf853b4d4988f64d9975e626f, type: 2}
-    stackSize: 20
+    stackSize: 5
   - data: {fileID: 11400000, guid: 6835c34bd80fc9c468d2f549f4b6220a, type: 2}
-    stackSize: 20
+    stackSize: 5

@@ -21,7 +21,6 @@ public class PlayerStats : CharacterStats
         player = GetComponent<Player>();
     }
 
-
     public void ApplyLevelModifies()
     {
         Modify(strength);

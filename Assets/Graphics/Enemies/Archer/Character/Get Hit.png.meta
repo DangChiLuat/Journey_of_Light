@@ -190,9 +190,9 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Get Hit_2: -327655415
       Get Hit_0: 1969018124
       Get Hit_1: 1009093998
+      Get Hit_2: -327655415
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

@@ -379,18 +379,18 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Thunderstrike wo blur_4: -1059594826
-      Thunderstrike wo blur_2: -1974403397
-      Thunderstrike wo blur_7: -136769740
-      Thunderstrike wo blur_11: -700554117
-      Thunderstrike wo blur_5: -682668735
       Thunderstrike wo blur_0: -328554044
-      Thunderstrike wo blur_3: 1518905664
-      Thunderstrike wo blur_9: -63739321
-      Thunderstrike wo blur_6: 1899016744
-      Thunderstrike wo blur_8: 438928439
       Thunderstrike wo blur_1: 1511340517
       Thunderstrike wo blur_10: 115856923
+      Thunderstrike wo blur_11: -700554117
+      Thunderstrike wo blur_2: -1974403397
+      Thunderstrike wo blur_3: 1518905664
+      Thunderstrike wo blur_4: -1059594826
+      Thunderstrike wo blur_5: -682668735
+      Thunderstrike wo blur_6: 1899016744
+      Thunderstrike wo blur_7: -136769740
+      Thunderstrike wo blur_8: 438928439
+      Thunderstrike wo blur_9: -63739321
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

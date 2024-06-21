@@ -36,11 +36,11 @@ MonoBehaviour:
   iceDamage: 0
   lightingDamage: 5
   craftingMaterials:
-  - data: {fileID: 11400000, guid: 69369925ed773dd4f904c6f9ad97e8a1, type: 2}
-    stackSize: 20
-  - data: {fileID: 11400000, guid: 6835c34bd80fc9c468d2f549f4b6220a, type: 2}
-    stackSize: 20
+  - data: {fileID: 11400000, guid: 201dcf32c23b82649acb65349e91bd6a, type: 2}
+    stackSize: 3
+  - data: {fileID: 11400000, guid: 3f6702065b6c25a4ea50a2b362a1e7ce, type: 2}
+    stackSize: 5
   - data: {fileID: 11400000, guid: 14caadcff121d434e8b031ae47985e10, type: 2}
-    stackSize: 10
+    stackSize: 5
   - data: {fileID: 11400000, guid: a180bc7902d002b4e930905c4affb542, type: 2}
-    stackSize: 10
+    stackSize: 5

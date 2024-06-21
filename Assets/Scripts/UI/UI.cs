@@ -125,14 +125,13 @@ public class UI : MonoBehaviour, ISaveManager
         fadeScreen.FadeOut();
         StartCoroutine(EndScreenCorutione());
     }
-
     IEnumerator EndScreenCorutione()
     {
         yield return new WaitForSeconds(1);
         endText.SetActive(true);
         yield return new WaitForSeconds(1.5f);
         restartButton.SetActive(true);
-
+        GameManager.instance.PauseGame(false);
     }
 
     public void RestartGameButton() => GameManager.instance.RestartScene();

@@ -253,12 +253,12 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Crystal_4: -460950653
-      Crystal_1: 1490614951
       Crystal_0: 1328961470
-      Crystal_3: -555759337
-      Crystal_5: -980038122
+      Crystal_1: 1490614951
       Crystal_2: 1638438198
+      Crystal_3: -555759337
+      Crystal_4: -460950653
+      Crystal_5: -980038122
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

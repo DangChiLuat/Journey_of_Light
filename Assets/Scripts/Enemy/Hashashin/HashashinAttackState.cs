@@ -35,7 +35,7 @@ public class HashashinAttackState : EnemyState
         if (comboCounter > 2 || Time.time >= lastTimeAttacked + comboWindow)
             comboCounter = 0;
 
-        Debug.Log(comboCounter);
+       // Debug.Log(comboCounter);
         enemy.anim.SetInteger("ComboCounter", comboCounter);
     }
 

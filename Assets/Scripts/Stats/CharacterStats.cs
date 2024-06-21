@@ -1,7 +1,5 @@
 ﻿using System.Collections;
 using UnityEngine;
-
-
 public enum StatType
 {
     strength,
@@ -56,7 +54,8 @@ public class CharacterStats : MonoBehaviour
     public int energyRegenAmount = 10; // Lượng năng lượng được hồi mỗi lần
 
     [Header("Experience")]
-    public float increaseEXP;
+    public int increaseEXP;
+    public int levelUP =1;
 
     private Coroutine regenCoroutine;
 
@@ -96,8 +95,8 @@ public class CharacterStats : MonoBehaviour
         critPower.SetDefaultValue(150);
         currentHealth = GetMaxHealthValue();
         currentEnergy = GetMaxEnergyValue();
-
         currentEXP = GetMaxEXPValue();
+
         fx = GetComponent<EntityFX>();
         StartEnergyRegen();
     }
@@ -387,10 +386,6 @@ public class CharacterStats : MonoBehaviour
 
         // giảm máu 
         DecreaseHealthBy(_damage);
-        IncreaseEXP();
-        Debug.Log(currentEXP);
-
-
 
         GetComponent<Entity>().DamageImpact();
         fx.StartCoroutine("FlashFX");
@@ -401,11 +396,15 @@ public class CharacterStats : MonoBehaviour
 
     public virtual void IncreaseEXP()
     {
-        currentEXP -= 10;
-        if(currentEXP > GetMaxEXPValue())
-            currentEXP = GetMaxEXPValue();
+        increaseEXP += 10;
 
-        if(onEXPChanged != null)
+        if (increaseEXP >= currentEXP)
+        {
+            increaseEXP = 0;
+            levelUP += 1;
+        }
+
+        if (onEXPChanged != null)
             onEXPChanged();
     }
 
@@ -468,6 +467,7 @@ public class CharacterStats : MonoBehaviour
         currentEnergy -= _energy;
         if (currentEnergy < 0)
         {
+            currentEnergy = 0;
             fx.CreatePopUpText("not enought energy ");
             return;
         }

@@ -86,7 +86,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5529630770897307769}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: -0.28, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -166,7 +166,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1768169261
-  m_SortingLayer: 5
+  m_SortingLayer: 6
   m_SortingOrder: 0
   m_Sprite: {fileID: 914748778, guid: 153ae5445ac704743a4296b65cd75f65, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -199,6 +199,7 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!114 &5529630771170631341
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -632,6 +633,7 @@ Canvas:
   m_OverrideSorting: 0
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
+  m_VertexColorAlwaysGammaSpace: 0
   m_AdditionalShaderChannelsFlag: 0
   m_SortingLayerID: -1768169261
   m_SortingOrder: 19
@@ -808,6 +810,12 @@ MonoBehaviour:
   maxHealth:
     baseValue: 150
     modifiers: 
+  maxEnergy:
+    baseValue: 0
+    modifiers: 
+  maxExperience:
+    baseValue: 0
+    modifiers: 
   armor:
     baseValue: 0
     modifiers: 
@@ -826,12 +834,18 @@ MonoBehaviour:
   lightingDamage:
     baseValue: 0
     modifiers: 
+  energyRegenInterval: 5
+  energyRegenAmount: 10
+  increaseEXP: 0
+  levelUP: 0
   isIgnited: 0
   isChilled: 0
   isShocked: 0
   ailmentsDuration: 4
-  shockStrikePrefab: {fileID: 0}
+  shockStrikePrefab: {fileID: 4158689088258206225, guid: 90919e9c918fc84499a3a88be8033ade, type: 3}
   currentHealth: 0
+  currentEnergy: 0
+  currentEXP: 0
   soulsDropAmount:
     baseValue: 0
     modifiers: 
@@ -878,8 +892,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c5d919b49c547184da9b10d7bfd2876f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  possibleItemDrop: 0
-  possibleDrop: []
+  possibleItemDrop: 6
+  possibleDrop:
+  - {fileID: 11400000, guid: aa2bc36c8c6e18d4fa19d98a060e572b, type: 2}
+  - {fileID: 11400000, guid: b6d4d5ff6ab3f9f4daf3fa23453bbe81, type: 2}
+  - {fileID: 11400000, guid: 851b2617e69f79c4db6a4c9278516982, type: 2}
+  - {fileID: 11400000, guid: 14b1592b36b727c4c9734d526368d3b5, type: 2}
+  - {fileID: 11400000, guid: 9337930988e275044b8e74fa4ca51510, type: 2}
+  - {fileID: 11400000, guid: 5a6cd81aaf50a814cbd0bfa954c58a68, type: 2}
   dropPrefab: {fileID: 8730514117533583190, guid: 7aaa3324c1c4b054ebebaafe3343bf25, type: 3}
 --- !u!114 &5529630772379239639
 MonoBehaviour:

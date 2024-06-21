@@ -295,14 +295,14 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
+      energyBallImpact_0: 1391412241
+      energyBallImpact_1: -349374632
       energyBallImpact_2: 624255007
       energyBallImpact_3: -1372900120
-      energyBallImpact_7: 578085262
       energyBallImpact_4: 1945407195
-      energyBallImpact_1: -349374632
-      energyBallImpact_0: 1391412241
-      energyBallImpact_6: 1115554688
       energyBallImpact_5: 1569919545
+      energyBallImpact_6: 1115554688
+      energyBallImpact_7: 578085262
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

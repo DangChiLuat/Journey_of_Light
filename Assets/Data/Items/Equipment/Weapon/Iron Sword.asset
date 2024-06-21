@@ -36,8 +36,10 @@ MonoBehaviour:
   lightingDamage: 10
   craftingMaterials:
   - data: {fileID: 11400000, guid: 69369925ed773dd4f904c6f9ad97e8a1, type: 2}
-    stackSize: 10
-  - data: {fileID: 11400000, guid: 6835c34bd80fc9c468d2f549f4b6220a, type: 2}
-    stackSize: 15
-  - data: {fileID: 11400000, guid: 5a6cd81aaf50a814cbd0bfa954c58a68, type: 2}
     stackSize: 5
+  - data: {fileID: 11400000, guid: 6835c34bd80fc9c468d2f549f4b6220a, type: 2}
+    stackSize: 10
+  - data: {fileID: 11400000, guid: 1fc54958788ad4b49acce7f1d0989161, type: 2}
+    stackSize: 5
+  - data: {fileID: 11400000, guid: 14b1592b36b727c4c9734d526368d3b5, type: 2}
+    stackSize: 1

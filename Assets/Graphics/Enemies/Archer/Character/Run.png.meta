@@ -295,14 +295,14 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Run_6: -1766175138
-      Run_2: -991287830
-      Run_1: 1375919926
-      Run_3: -2119673389
-      Run_7: -1980536807
-      Run_4: 1684091783
       Run_0: 1019185713
+      Run_1: 1375919926
+      Run_2: -991287830
+      Run_3: -2119673389
+      Run_4: 1684091783
       Run_5: -22147443
+      Run_6: -1766175138
+      Run_7: -1980536807
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

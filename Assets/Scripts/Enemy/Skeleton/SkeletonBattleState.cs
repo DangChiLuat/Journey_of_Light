@@ -1,5 +1,3 @@
-    using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class SkeletonBattleState : EnemyState
@@ -7,7 +5,7 @@ public class SkeletonBattleState : EnemyState
     private Transform player;
     private Enemy_Skeleton enemy;
     private int moveDir;
-
+    private bool flipOne;
 
     public SkeletonBattleState(Enemy _enemyBase, EnemyStateMachine _stateMachine, string _animBoolName, Enemy_Skeleton _enemy) : base(_enemyBase, _stateMachine, _animBoolName)
     {
@@ -23,12 +21,14 @@ public class SkeletonBattleState : EnemyState
         if (player.GetComponent<PlayerStats>().isDead)
             stateMachine.ChangeState(enemy.moveState);
 
-        
+        flipOne = false;
+
     }
 
     public override void Update()
     {
         base.Update();
+        enemy.anim.SetFloat("xVelocity", enemy.rb.velocity.x);
 
         if (enemy.IsPlayerDetected())
         {
@@ -40,12 +40,24 @@ public class SkeletonBattleState : EnemyState
                     stateMachine.ChangeState(enemy.attackState);
             }
         }
-        else 
+        else
         {
+            if (flipOne == false)
+            {
+                flipOne = true;
+                enemy.Flip();
+            }
+
             if (stateTimer < 0 || Vector2.Distance(player.transform.position, enemy.transform.position) > 7)
                 stateMachine.ChangeState(enemy.idleState);
         }
 
+        float distanceToPlayerX = Mathf.Abs(player.transform.position.x - enemy.transform.position.x);
+
+        if (distanceToPlayerX < 2f)
+        {
+            return;
+        }
 
 
         if (player.position.x > enemy.transform.position.x)

@@ -52,7 +52,7 @@ public class HashashinBattleState : EnemyState
         }
 
         float distanceToPlayerX = Mathf.Abs(player.transform.position.x - enemy.transform.position.x);
-        if (distanceToPlayerX < 3f)
+        if (distanceToPlayerX < 4f)
         {
             return;
         }

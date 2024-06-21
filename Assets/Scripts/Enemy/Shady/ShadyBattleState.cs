@@ -43,7 +43,6 @@ public class ShadyBattleState : EnemyState
 
             if (enemy.IsPlayerDetected().distance < enemy.attackDistance)
             {
-                AudioManager.instance.PlaySFX(40, null);
                 enemy.stats.KillEntity(); // this enteres dead state which triggers explosion + drop items and souls
             }
                 

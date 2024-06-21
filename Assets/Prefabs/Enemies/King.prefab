@@ -1,5 +1,87 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2073827829
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2073827830}
+  - component: {fileID: 2073827831}
+  m_Layer: 0
+  m_Name: Light 2D
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2073827830
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2073827829}
+  m_LocalRotation: {x: -0, y: -0, z: -0.5994021, w: 0.8004481}
+  m_LocalPosition: {x: -0.15, y: 0.86, z: -0.012179054}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6197421819120097094}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2073827831
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2073827829}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 073797afb82c5a1438f328866b10b3f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_ComponentVersion: 1
+  m_LightType: 3
+  m_BlendStyleIndex: 0
+  m_FalloffIntensity: 0.799
+  m_Color: {r: 0, g: 0.97735846, b: 0.94081944, a: 1}
+  m_Intensity: 1.94
+  m_LightVolumeIntensity: 1
+  m_LightVolumeIntensityEnabled: 0
+  m_ApplyToSortingLayers: 00000000bd46aad7753b6e3989997cf4d1347e40c111c814d3e09b96c9ad6cf057075a5a
+  m_LightCookieSprite: {fileID: 0}
+  m_DeprecatedPointLightCookieSprite: {fileID: 0}
+  m_LightOrder: 0
+  m_AlphaBlendOnOverlap: 0
+  m_OverlapOperation: 0
+  m_NormalMapDistance: 3
+  m_NormalMapQuality: 2
+  m_UseNormalMap: 0
+  m_ShadowIntensityEnabled: 0
+  m_ShadowIntensity: 0.75
+  m_ShadowVolumeIntensityEnabled: 0
+  m_ShadowVolumeIntensity: 0.75
+  m_LocalBounds:
+    m_Center: {x: 0, y: -0.00000011920929, z: 0}
+    m_Extent: {x: 0.9985302, y: 0.99853027, z: 0}
+  m_PointLightInnerAngle: 360
+  m_PointLightOuterAngle: 360
+  m_PointLightInnerRadius: 0
+  m_PointLightOuterRadius: 1.1353858
+  m_ShapeLightParametricSides: 5
+  m_ShapeLightParametricAngleOffset: 0
+  m_ShapeLightParametricRadius: 1
+  m_ShapeLightFalloffSize: 0.5
+  m_ShapeLightFalloffOffset: {x: 0, y: 0}
+  m_ShapePath:
+  - {x: -0.5, y: -0.5, z: 0}
+  - {x: 0.5, y: -0.5, z: 0}
+  - {x: 0.5, y: 0.5, z: 0}
+  - {x: -0.5, y: 0.5, z: 0}
 --- !u!1 &6197421818617357861
 GameObject:
   m_ObjectHideFlags: 0
@@ -24,7 +106,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6197421818617357861}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.538, y: 0.91, z: 0}
+  m_LocalPosition: {x: 0.538, y: -0.22, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -542,6 +624,7 @@ Transform:
   - {fileID: 8947249097007874789}
   - {fileID: 6197421819821773146}
   - {fileID: 6197421818789192262}
+  - {fileID: 2073827830}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -560,7 +643,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
-  m_GravityScale: 1
+  m_GravityScale: 3
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1
@@ -607,7 +690,7 @@ MonoBehaviour:
     baseValue: 0
     modifiers: 
   damage:
-    baseValue: 300
+    baseValue: 100
     modifiers: 
   critChance:
     baseValue: 100
@@ -616,7 +699,13 @@ MonoBehaviour:
     baseValue: 100
     modifiers: 
   maxHealth:
-    baseValue: 100
+    baseValue: 600
+    modifiers: 
+  maxEnergy:
+    baseValue: 0
+    modifiers: 
+  maxExperience:
+    baseValue: 0
     modifiers: 
   armor:
     baseValue: 0
@@ -631,17 +720,23 @@ MonoBehaviour:
     baseValue: 0
     modifiers: 
   iceDamage:
-    baseValue: 0
+    baseValue: 10
     modifiers: 
   lightingDamage:
     baseValue: 0
     modifiers: 
+  energyRegenInterval: 5
+  energyRegenAmount: 10
+  increaseEXP: 0
+  levelUP: 0
   isIgnited: 0
   isChilled: 0
   isShocked: 0
   ailmentsDuration: 4
   shockStrikePrefab: {fileID: 4158689088258206225, guid: 90919e9c918fc84499a3a88be8033ade, type: 3}
   currentHealth: 0
+  currentEnergy: 0
+  currentEXP: 0
   soulsDropAmount:
     baseValue: 0
     modifiers: 
@@ -688,9 +783,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c5d919b49c547184da9b10d7bfd2876f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  possibleItemDrop: 0
-  possibleDrop: []
-  dropPrefab: {fileID: 0}
+  possibleItemDrop: 6
+  possibleDrop:
+  - {fileID: 11400000, guid: 14b1592b36b727c4c9734d526368d3b5, type: 2}
+  - {fileID: 11400000, guid: 839fd2910ad77e744a35af1a16bb4118, type: 2}
+  - {fileID: 11400000, guid: a0300e0089d439943998db8ef1c2617f, type: 2}
+  - {fileID: 11400000, guid: 14caadcff121d434e8b031ae47985e10, type: 2}
+  - {fileID: 11400000, guid: 9337930988e275044b8e74fa4ca51510, type: 2}
+  - {fileID: 11400000, guid: a180bc7902d002b4e930905c4affb542, type: 2}
+  dropPrefab: {fileID: 8730514117533583190, guid: 7aaa3324c1c4b054ebebaafe3343bf25, type: 3}
 --- !u!114 &6197421819120097095
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -728,7 +829,7 @@ MonoBehaviour:
   attackDistance: 2.71
   attackCooldown: 0
   minAttackCooldown: 0.5
-  maxAttackCooldown: 1.5
+  maxAttackCooldown: 1
   lastTimeAttacked: 0
   UIHP: {fileID: 6197421818789192261}
 --- !u!1 &6197421819821773145

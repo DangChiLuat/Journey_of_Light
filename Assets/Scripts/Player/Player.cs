@@ -100,7 +100,18 @@ public class Player : Entity
 
 
         if (Input.GetKeyDown(KeyCode.F) && skill.crystal.crystalUnlocked)
-            skill.crystal.CanUseSkill();
+        {
+            if (stats.currentEnergy >= 20)
+            {
+                skill.crystal.CanUseSkill();
+                stats.EnergyConsumption(20);
+            }
+            else
+            {
+                fx.CreatePopUpText("not enought Energy");
+                return;
+            }
+        }
 
         if (Input.GetKeyDown(KeyCode.Alpha1))
             Inventory.instance.UseFlask();
@@ -156,7 +167,7 @@ public class Player : Entity
             return;
 
 
-        if (Input.GetKeyDown(KeyCode.LeftShift) && SkillManager.instance.dash.CanUseSkill())
+        if (Input.GetKeyDown(KeyCode.LeftShift) && SkillManager.instance.dash.CanUseSkill() && stats.currentEnergy >= 20)
         {
 
             dashDir = Input.GetAxisRaw("Horizontal");
@@ -164,7 +175,7 @@ public class Player : Entity
             if (dashDir == 0)
                 dashDir = facingDir;
 
-
+            stats.EnergyConsumption(20);
             stateMachine.ChangeState(dashState);
         }
     }

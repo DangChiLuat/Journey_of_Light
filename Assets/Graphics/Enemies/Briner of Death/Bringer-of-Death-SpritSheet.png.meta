@@ -1483,70 +1483,70 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Bringer-of-Death-SpritSheet_51: 422466444
-      Bringer-of-Death-SpritSheet_12: 885441533
-      Bringer-of-Death-SpritSheet_26: 1239535024
-      Bringer-of-Death-SpritSheet_9: 35063014
-      Bringer-of-Death-SpritSheet_48: 178828880
-      Bringer-of-Death-SpritSheet_5: 532228403
-      Bringer-of-Death-SpritSheet_31: 1279597461
-      Bringer-of-Death-SpritSheet_11: 618261271
-      Bringer-of-Death-SpritSheet_60: 71066511
-      Bringer-of-Death-SpritSheet_56: 1746613025
-      Bringer-of-Death-SpritSheet_36: 1518219010
-      Bringer-of-Death-SpritSheet_15: -2046906748
-      Bringer-of-Death-SpritSheet_47: 180368031
-      Bringer-of-Death-SpritSheet_55: -2108266180
-      Bringer-of-Death-SpritSheet_18: -68472170
-      Bringer-of-Death-SpritSheet_24: -639067706
-      Bringer-of-Death-SpritSheet_30: -112085863
-      Bringer-of-Death-SpritSheet_61: 1214648813
-      Bringer-of-Death-SpritSheet_29: 1830223012
-      Bringer-of-Death-SpritSheet_44: -161309826
-      Bringer-of-Death-SpritSheet_34: -162226665
-      Bringer-of-Death-SpritSheet_40: -1795947544
-      Bringer-of-Death-SpritSheet_7: 1374279382
-      Bringer-of-Death-SpritSheet_33: -1538343985
-      Bringer-of-Death-SpritSheet_63: 411727460
-      Bringer-of-Death-SpritSheet_37: -302476649
-      Bringer-of-Death-SpritSheet_8: -1061931200
-      Bringer-of-Death-SpritSheet_16: -856986614
-      Bringer-of-Death-SpritSheet_42: 240716102
-      Bringer-of-Death-SpritSheet_10: -1714727776
-      Bringer-of-Death-SpritSheet_45: -1884892108
-      Bringer-of-Death-SpritSheet_58: -2002389457
-      Bringer-of-Death-SpritSheet_53: 1783002103
-      Bringer-of-Death-SpritSheet_3: -1551974244
-      Bringer-of-Death-SpritSheet_62: -1657117315
-      Bringer-of-Death-SpritSheet_32: 716675595
-      Bringer-of-Death-SpritSheet_41: -1606574418
-      Bringer-of-Death-SpritSheet_1: -1462285422
-      Bringer-of-Death-SpritSheet_21: -137444286
-      Bringer-of-Death-SpritSheet_6: 658658958
       Bringer-of-Death-SpritSheet_0: -686164639
-      Bringer-of-Death-SpritSheet_22: 669171865
-      Bringer-of-Death-SpritSheet_20: 1897030583
-      Bringer-of-Death-SpritSheet_17: 437891711
-      Bringer-of-Death-SpritSheet_2: -1763373159
-      Bringer-of-Death-SpritSheet_57: -887416114
-      Bringer-of-Death-SpritSheet_25: -447002145
-      Bringer-of-Death-SpritSheet_49: -732510928
-      Bringer-of-Death-SpritSheet_54: -370275245
-      Bringer-of-Death-SpritSheet_59: 419490541
-      Bringer-of-Death-SpritSheet_50: 531450751
-      Bringer-of-Death-SpritSheet_52: 377844805
+      Bringer-of-Death-SpritSheet_1: -1462285422
+      Bringer-of-Death-SpritSheet_10: -1714727776
+      Bringer-of-Death-SpritSheet_11: 618261271
+      Bringer-of-Death-SpritSheet_12: 885441533
       Bringer-of-Death-SpritSheet_13: 215553105
-      Bringer-of-Death-SpritSheet_19: -724687595
-      Bringer-of-Death-SpritSheet_23: 155206158
-      Bringer-of-Death-SpritSheet_43: 720325199
-      Bringer-of-Death-SpritSheet_38: 201673990
-      Bringer-of-Death-SpritSheet_28: -497815220
       Bringer-of-Death-SpritSheet_14: -409163042
+      Bringer-of-Death-SpritSheet_15: -2046906748
+      Bringer-of-Death-SpritSheet_16: -856986614
+      Bringer-of-Death-SpritSheet_17: 437891711
+      Bringer-of-Death-SpritSheet_18: -68472170
+      Bringer-of-Death-SpritSheet_19: -724687595
+      Bringer-of-Death-SpritSheet_2: -1763373159
+      Bringer-of-Death-SpritSheet_20: 1897030583
+      Bringer-of-Death-SpritSheet_21: -137444286
+      Bringer-of-Death-SpritSheet_22: 669171865
+      Bringer-of-Death-SpritSheet_23: 155206158
+      Bringer-of-Death-SpritSheet_24: -639067706
+      Bringer-of-Death-SpritSheet_25: -447002145
+      Bringer-of-Death-SpritSheet_26: 1239535024
+      Bringer-of-Death-SpritSheet_27: -1740279660
+      Bringer-of-Death-SpritSheet_28: -497815220
+      Bringer-of-Death-SpritSheet_29: 1830223012
+      Bringer-of-Death-SpritSheet_3: -1551974244
+      Bringer-of-Death-SpritSheet_30: -112085863
+      Bringer-of-Death-SpritSheet_31: 1279597461
+      Bringer-of-Death-SpritSheet_32: 716675595
+      Bringer-of-Death-SpritSheet_33: -1538343985
+      Bringer-of-Death-SpritSheet_34: -162226665
+      Bringer-of-Death-SpritSheet_35: -1119929380
+      Bringer-of-Death-SpritSheet_36: 1518219010
+      Bringer-of-Death-SpritSheet_37: -302476649
+      Bringer-of-Death-SpritSheet_38: 201673990
       Bringer-of-Death-SpritSheet_39: -542427292
       Bringer-of-Death-SpritSheet_4: 1741046578
-      Bringer-of-Death-SpritSheet_35: -1119929380
-      Bringer-of-Death-SpritSheet_27: -1740279660
+      Bringer-of-Death-SpritSheet_40: -1795947544
+      Bringer-of-Death-SpritSheet_41: -1606574418
+      Bringer-of-Death-SpritSheet_42: 240716102
+      Bringer-of-Death-SpritSheet_43: 720325199
+      Bringer-of-Death-SpritSheet_44: -161309826
+      Bringer-of-Death-SpritSheet_45: -1884892108
       Bringer-of-Death-SpritSheet_46: -901267025
+      Bringer-of-Death-SpritSheet_47: 180368031
+      Bringer-of-Death-SpritSheet_48: 178828880
+      Bringer-of-Death-SpritSheet_49: -732510928
+      Bringer-of-Death-SpritSheet_5: 532228403
+      Bringer-of-Death-SpritSheet_50: 531450751
+      Bringer-of-Death-SpritSheet_51: 422466444
+      Bringer-of-Death-SpritSheet_52: 377844805
+      Bringer-of-Death-SpritSheet_53: 1783002103
+      Bringer-of-Death-SpritSheet_54: -370275245
+      Bringer-of-Death-SpritSheet_55: -2108266180
+      Bringer-of-Death-SpritSheet_56: 1746613025
+      Bringer-of-Death-SpritSheet_57: -887416114
+      Bringer-of-Death-SpritSheet_58: -2002389457
+      Bringer-of-Death-SpritSheet_59: 419490541
+      Bringer-of-Death-SpritSheet_6: 658658958
+      Bringer-of-Death-SpritSheet_60: 71066511
+      Bringer-of-Death-SpritSheet_61: 1214648813
+      Bringer-of-Death-SpritSheet_62: -1657117315
+      Bringer-of-Death-SpritSheet_63: 411727460
+      Bringer-of-Death-SpritSheet_7: 1374279382
+      Bringer-of-Death-SpritSheet_8: -1061931200
+      Bringer-of-Death-SpritSheet_9: 35063014
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
