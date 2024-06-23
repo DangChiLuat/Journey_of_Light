@@ -88,7 +88,7 @@ public class KingBattleState : EnemyState
 
     public void TriggerAttackOrTeleport()
     {
-        if (Random.value < .75f && Vector2.Distance(player.transform.position, enemy.transform.position) < 3f)
+        if (Random.value < .25f && Vector2.Distance(player.transform.position, enemy.transform.position) < 3f)
         {
             AudioManager.instance.PlaySFX(50, enemy.transform);
             stateMachine.ChangeState(enemy.teleportState);
