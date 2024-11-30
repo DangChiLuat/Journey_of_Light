@@ -2,7 +2,7 @@ using System.Collections.Generic;
 using UnityEditor;
 using UnityEngine;
 
-public class Inventory : MonoBehaviour, ISaveManager
+public class Inventory : MonoBehaviour , ISaveManager
 {
     public static Inventory instance;
 
@@ -76,7 +76,7 @@ public class Inventory : MonoBehaviour, ISaveManager
         {
             EquipItem(item);
         }
-
+        
         if (loadedItems.Count > 0)
         {
             foreach (InventoryItem item in loadedItems)
@@ -328,7 +328,7 @@ public class Inventory : MonoBehaviour, ISaveManager
             currentFlask.Effect(null);
             lastTimeUsedFlask = Time.time;
         }
-        //            Debug.Log("Flask on cooldown;");
+//            Debug.Log("Flask on cooldown;");
     }
 
     public bool CanUseArmor()
@@ -342,7 +342,7 @@ public class Inventory : MonoBehaviour, ISaveManager
             return true;
         }
 
-        //       Debug.Log("Armor on cooldown");
+ //       Debug.Log("Armor on cooldown");
         return false;
     }
 
@@ -405,7 +405,7 @@ public class Inventory : MonoBehaviour, ISaveManager
     private List<ItemData> GetItemDataBase()
     {
         List<ItemData> itemDataBase = new List<ItemData>();
-        string[] assetNames = AssetDatabase.FindAssets("", new[] { "Assets/Data/Items" });
+        string[] assetNames = AssetDatabase.FindAssets("", new[] { "Assets/Data/Items" }); 
 
         foreach (string SOName in assetNames)
         {
@@ -417,6 +417,6 @@ public class Inventory : MonoBehaviour, ISaveManager
         return itemDataBase;
     }
 #endif
-
+    
 
 }
